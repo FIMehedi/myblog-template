@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 400;
+}
+button{
+    border-radius: 2px;
+}
+body{
+    background-color: #f1f1f1!important;
+}
+
+/* Header Start */
+header{
+    width: 100%;
+    /* height: ; */
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 20px;
+}
+header h1{
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+header p span{
+    background-color: black;
+    color: white;
+    padding: 2px 8px;
+}
+/* Header End */
+/* Main Start */
+/* Section Start */
+#content{
+    width: 65%;
+    display: inline-block;
+    margin-left: 1.4%;
+    /* border: 1px solid black; */
+
+}
+.blog-wrapper{
+    height: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    overflow: hidden;
+}
+.blog-head{
+    padding: 15px;
+    padding-bottom: 10px;
+}
+.blog-img img{
+    width: 100%;
+}
+.blog-head h3{
+    font-size: 25px;
+}
+.blog-head h5{
+    padding-top: 10px;
+    font-size: 17px;
+    
+}
+.blog-head h5 span{
+    opacity: 0.60;
+}
+.blog-body p{
+    padding: 15px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.blog-footer{
+    padding: 15px;
+    padding-bottom: 60px;
+}
+.blog-footer-left{
+    float: left;
+    padding-bottom: 10px;
+}
+.blog-footer-left p{
+    display: block;
+}
+.blog-btn{
+    display: block;
+    padding: 12px 25px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+}
+.blog-footer-right{
+    float: right;
+}
+.blog-footer-right p{
+    display: block;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+}
+.blog-cmnt{
+    background-color: black;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+/* Section End */
+/* Aside Start */
+aside{
+    width: 30%;
+    float: right;
+    margin-right: 1.4%;
+    /* border: 1px solid black; */
+}
+#about-wrapper{
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 30px;
+}
+#about-img img{
+    width: 100%;
+}
+#about-title{
+    padding: 15px;
+    padding-bottom: 5px;
+}
+#about-title h4{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+#about-me p{
+    padding-top: 0;
+    padding: 15px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.popular-post-wrapper, .tags-wrapper{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 30px;
+}
+.popular-post-title, .tags-title{
+    padding: 20px 15px;
+    font-size: 20px;
+}
+.popular-post-list{
+    background-color: white;
+}
+.popular-post-list ul li{
+    padding: 15px;
+    line-height: 1.5;
+    border-bottom: 1px solid #ccc;
+}
+.popular-post-list ul li:hover{
+    background-color: #ccc;
+}
+.popular-post-list ul li img{
+    width: 50px;
+    float: left;
+    margin-right: 20px;
+}
+.tags{
+    background-color: white;
+    padding: 15px;
+}
+.tags span{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 2px 8px;
+    margin-bottom: 16px;
+    display: inline-block;
+    font-size: 12px;
+}
+.tag-active{
+    background-color: black !important;
+    color: white;
+}
+/* Aside End */
+/* Main End */
+/* Footer Start */
+footer{
+    background-color: #616161!important;
+    padding: 32px 15px;
+}
+.footer-previous, .footer-next{
+    padding: 12px 22px;
+    border: none;
+    /* background-color: #fff; */
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.footer-previous{
+    background-color: #002!important;
+    color: white;
+    opacity: 0.3;
+}
+.footer-next{
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+}
+.footer-previous:hover {
+    color: #000!important;
+    background-color: #ccc!important;
+}
+.footer-next:hover {
+    color: #000!important;
+    background-color: #ccc!important;
+}
+footer p, a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+/* Footer End */
